@@ -1,0 +1,53 @@
+.container {
+    margin-top: 40px;
+}
+.menu-btn {
+    width: 64px;
+    height: 64px;
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    z-index: 1;
+    cursor: w-resize;
+}
+
+.menu-btn span {
+    width: 60%;
+    height: 5px;
+    background: red;
+    display: block;
+    margin: 10px auto;
+    transition: all .3s;
+    
+
+}
+
+.menu-box {
+    width: 40%;
+    height: 100vh;
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: -40%;
+    padding: 30px;
+    box-sizing: border-box;
+    transition: all .7s;
+
+}
+
+.menu-box a {
+    font-size: 40px;
+    color: red;
+    font-family:sans-serif;
+    line-height: 2;
+    font-weight: 600;
+
+}
+
+.menu-box.active {
+    right: 0;
+     !important;
+}
