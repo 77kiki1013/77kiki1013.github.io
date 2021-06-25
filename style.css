@@ -1,0 +1,49 @@
+
+.navbar {
+    font-family: sans-serif;
+    font-size: 17px; 
+    
+}
+    
+
+.h1 {
+    font-style: oblique;
+}
+.content1{
+   text-align: center;
+    margin: 120px;
+}
+.h2 {
+  font-size: 30px; 
+}
+.p2 {
+    flex-shrink: 10px;
+    padding: 5px;
+}
+.top{
+    background: beige;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.row {
+    padding-top: 50px;
+}
+.img-fluid d-block {
+    margin-left: 50px;
+}
+.h4 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.content2{
+    margin: 10px 70px 30px 70px;
+}
